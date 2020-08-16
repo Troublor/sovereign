@@ -1,7 +1,7 @@
 {
   "galaxy.meteor.com": {
     "env": {
-      "ROOT_URL": "",
+      "ROOT_URL": "http://localhost:3030",
       "MONGO_URL": "",
       "MONGO_OPLOG_URL": "",
       "SPIDERABLE_FLAGS": ""
@@ -28,10 +28,10 @@
     "sentryPrivateDSN": "",
     "smtpServer": "",
     "web3": {
-      "config": "mainnet",
-      "network": "",
-      "secret": "",
-      "id": "",
+      "config": "testnet",
+      "network": "http://localhost:8545",
+      "secret": "aab5913e48de4eb58988277c8c3e17af",
+      "id": "892a7c25469e4cdfaa080643d5073ba0",
       "fortmatic": ""
     }
   },
@@ -134,14 +134,14 @@
         "blockExplorer": "https://etherscan.io"
       },
       "template": {
-        "settings": "/templates/moloch/moloch.json"
+        "settings": "/templates/daoverse/daoverse.json"
       }
     },
     "web3": {
-      "config": "mainnet",
-      "network": "",
-      "secret": "",
-      "id": "",
+      "config": "testnet",
+      "network": "http://localhost:8545",
+      "secret": "aab5913e48de4eb58988277c8c3e17af",
+      "id": "892a7c25469e4cdfaa080643d5073ba0",
       "fortmatic": ""
     }
   }
