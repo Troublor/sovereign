@@ -42,7 +42,7 @@ const _calculateRanking = (collective, valueList) => {
     daoValue = 0;
   }
   const position = _.indexOf(valueList, daoValue).toNumber();
-  const ranking = parseFloat(position / (valueList.length - 1), 10);
+  const ranking = parseFloat(position / (valueList.length), 10);
 
   log(`[oracle] Calculating Ranking position for collective '${collective.uri}' at ${ranking}`);
   return ranking;
