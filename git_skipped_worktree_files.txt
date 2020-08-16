@@ -1,0 +1,5 @@
+private/lib/dao.json
+private/lib/daohaus.json
+private/lib/token.json
+lib/templates.js
+public/templates/daoverse/lib/token.json
