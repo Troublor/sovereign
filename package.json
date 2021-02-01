@@ -30,6 +30,7 @@
     "abi-decoder": "^1.2.0",
     "atob": "^2.1.2",
     "autoprefixer": "^6.4.1",
+    "babel-plugin-istanbul": "^6.0.0",
     "babel-runtime": "^6.26.0",
     "bcrypt": "^3.0.8",
     "bcryptjs": "^2.4.0",
@@ -177,5 +178,10 @@
       ],
       "import/resolver": "meteor"
     }
+  },
+  "babel": {
+    "plugins": [
+      "istanbul"
+    ]
   }
 }
